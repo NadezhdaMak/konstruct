@@ -30,13 +30,7 @@ body{
     font-weight: 600;
     color: var(--text-color);
 }
-#header, #footer, #in-touch, .signup, .copyright{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-#header{
-    height: 100dvh;
-}
+
 .container{
     display: block;
     max-width: 940px;
@@ -84,6 +78,7 @@ body{
     text-align: center;
     background-position: center center;
     background-size: cover;
+    height: 100dvh;
 }
 .header__inner{
     padding: 40px 0 70px;
@@ -120,7 +115,7 @@ body{
 
 /* Nav */
 nav{
-    max-width: 1440px;
+    max-width: 100dvw;
     margin: 0 auto;
     border: 2px solid #E6E6E6;
 }
